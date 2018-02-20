@@ -166,7 +166,7 @@ If you are ready, please click "Accept HIT" to start this task.
         string += ' </form>';
         string += ' <button class="btn btn-primary" style="width: 150px; font-size: 16px; float: left; margin-left: 10px; padding: 10px;" id="image_selection" onclick="getFeedback();" disabled="disabled"> Submit Selection </button>';
         string += ' <button class="btn btn-primary" style="width: 150px; font-size: 16px; float: left; margin-left: 10px; padding: 10px;" id="next_round" onclick="nextRound();"> Next Round </button>';
-        string += ' <button class="btn btn-primary" style="width: 150px; font-size: 16px; float: left; margin-left: 10px; padding: 10px;" id="finish" onclick="nextRound();"> Finish </button>';
+        string += ' <button class="btn btn-primary" style="width: 150px; font-size: 16px; float: left; margin-left: 10px; padding: 10px;" id="finish" onclick="nextRound();"> Finish Game </button>';
         
         display.append(string);
         $("button#next_round").hide();
@@ -197,9 +197,8 @@ If you are ready, please click "Accept HIT" to start this task.
         if (message.images) {
             makeInput(images);
             
-            $('#title').html(text.split(' ').slice(0,2).join(' '));    
-            // round_counter = int(text.split(' ').slice(1,2).join(' '));
-            // $('#test').html(round_counter);
+            $('#title').html(text.split(' ').slice(0,2).join(' ')); 
+            round_counter = Number(text.split(' ').slice(1,2).join(''));
             
             if (num_messages == 0) {
                 add_message_to_conversation("INSTRUCTOR", "You are paired with a new player.", false);
@@ -216,15 +215,18 @@ If you are ready, please click "Accept HIT" to start this task.
             
         } else if (text.startsWith('<next_round>')) {
                     
-        } else if (message.solution) {
+        } else if (text.startsWith('<feedback>')) {
+        
+        }else if (message.solution) {
             // $('#test').html(escapeHtml('Show Feedback!'));  
             showFeedback(solution);      
-        } else {
+        } else if (text) {
             num_messages++;
-
             message.id = (was_this_agent ? "YOU:" : "THEM:");
             var agent_id = message.id;
-            add_message_to_conversation(was_this_agent ? "YOU" : "THEM", text, was_this_agent);
+            add_message_to_conversation(was_this_agent ? "YOU" : "THEM", escapeHtml(text), was_this_agent);
+        } else {
+            $('#test').html('Message dropped through selection');
         }        
     };
 })();
@@ -285,7 +287,13 @@ function showFeedback(solution) {
             
     } 
     
-    $("button#next_round").show();
+    if (round_counter < 5) {
+        $("button#next_round").show();
+    } else {
+        $("button#finish").show();
+        $("button#image_selection").hide();
+        $("button#next_round").hide();
+    }
 }
 
 function getFeedback() {

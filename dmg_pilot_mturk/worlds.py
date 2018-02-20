@@ -17,6 +17,7 @@ from parlai.tasks.dmg_pilot_mturk.agents import DIF_TOKEN
 from parlai.tasks.dmg_pilot_mturk.agents import NEXT_ROUND_TOKEN
 from parlai.tasks.dmg_pilot_mturk.agents import FEEDBACK_TOKEN
 
+from copy import deepcopy
 from collections import defaultdict
 import random
 import time
@@ -44,15 +45,19 @@ class MTurkDMGDialogWorld(MTurkTaskWorld):
         self.conversation_log = {
             'game_id': self.game_nr,
             'players': self.players,
-            'agent_ids': self.player_labels,
-            # TODO: Add the actual agent ids
-            'data': []
+            'agent_labels': self.player_labels,
+            'agent_ids' :[],
+            'rounds': []
         }
-        self.round_log = {
-            'score': None,
-            'images': None,
-            'data': []
-        }
+
+        for i, agent in enumerate(agents):
+            try:
+                self.conversation_log['agent_ids'].append(agent.worker_id)
+            except:
+                self.conversation_log['agent_ids'].append(self.player_labels[i])
+
+        self.round_log = self.reset_round_log()
+
 
     def parley(self):
         """
@@ -108,7 +113,7 @@ class MTurkDMGDialogWorld(MTurkTaskWorld):
                 print("Message sent was: {}".format(message))
 
                 log_entry = self.create_message_log_entry(agent, player, player_label, message)
-                self.round_log['data'].append(log_entry)
+                self.round_log['messages'].append(log_entry)
 
                 message = message.split(" ")
                 if message[0] == SELECTION_TOKEN:
@@ -124,21 +129,21 @@ class MTurkDMGDialogWorld(MTurkTaskWorld):
 
                 if message[0] == FEEDBACK_TOKEN and self.all_selected():
                     scores = self.send_feedback()
-                    print("Logging data")
                     self.round_log['score'] = scores
-                    self.round_log['images'] = {self.player_labels[0]: self.data[self.player_labels[0]][self.round_nr],
-                                                self.player_labels[1]: self.data[self.player_labels[1]][self.round_nr]}
-                    self.conversation_log['data'].append(self.round_log)
 
                 if message[0] == NEXT_ROUND_TOKEN and self.all_selected() and self.doneCounter == 0:
                     print("One player clicked continue")
                     self.doneCounter += 1
 
                 elif message[0] == NEXT_ROUND_TOKEN and self.all_selected() and self.doneCounter == 1:
-                    print("Starting next round")
-                    self.doneCounter = 0
+                    print("Logging data")
+                    self.round_log['round_nr'] = self.round_nr
+                    self.round_log['images'] = {self.player_labels[0]: self.data[self.player_labels[0]][self.round_nr],
+                                                self.player_labels[1]: self.data[self.player_labels[1]][self.round_nr]}
+                    self.conversation_log['rounds'].append(deepcopy(self.round_log))
+
                     self.episodeDone = True
-                    self.selections = defaultdict(lambda: dict())
+
 
                 # Check if episode ended due to disconnection or timeout or returned hit
                 elif action['episode_done']:
@@ -193,12 +198,18 @@ class MTurkDMGDialogWorld(MTurkTaskWorld):
         return scores
 
     def create_message_log_entry(self, agent, player, player_label, message):
+
+        try:
+            agent_id = agent.worker_id
+        except:
+            agent_id = player_label
+
         entry = {
             'timestamp': time.time(),
             'turn': self.turn_nr,
             'speaker:': player_label,
-            'agent_id': player,
-            # TODO: Add the actual player id
+            'agent_label': player,
+            'agent_id': agent_id,
             'message': message
         }
         return entry
@@ -209,10 +220,17 @@ class MTurkDMGDialogWorld(MTurkTaskWorld):
         :return: True if all players selected all images
         """
         for agent in self.agents:
-            # TODO: Set image number requirement to 6 to account for all images
             if len(self.selections[agent]) < 6:
                 return False
         return True
+
+    def reset_round_log(self):
+        return {
+            'round_nr': None,
+            'score': None,
+            'images': None,
+            'messages': []
+        }
 
     def episode_done(self):
         """

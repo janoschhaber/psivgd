@@ -82,28 +82,29 @@ def main():
                 agents=agents
             )
 
+            log_timestamp = time.time()
+
             # Loop over all five rounds of the game
             for r in range(5):
                 print("--- Starting round {} ---".format(r+1))
                 while not world.episode_done():
                     world.parley()
 
-                # TODO: Enable logging
                 # Write the log data to file
 
                 print("Writing log to file")
                 if not os.path.exists("logs"):
                     os.makedirs("logs")
-                with open('logs/dmg_pilot_data_{}_{}.json'.format(world.game_nr, time.time()), 'w') as f:
+                with open('logs/dmg_pilot_data_{}_{}.json'.format(world.game_nr, log_timestamp), 'w') as f:
                     json.dump(world.conversation_log, f)
 
                 if not r == 4:
                     # Reset the world for the next round
-                    world.round_log['data'] = []
-                    world.round_log['score'] = None
                     world.selections = defaultdict(lambda: dict())
+                    world.round_log = world.reset_round_log()
                     world.turn_nr = -1
                     world.round_nr += 1
+                    world.doneCounter = 0
                     world.episodeDone = False
 
                 else:
@@ -114,6 +115,8 @@ def main():
             assign_role_function=assign_worker_roles,
             task_function=run_conversation
         )
+
+        print("Game ended.")
 
     except BaseException:
         raise
