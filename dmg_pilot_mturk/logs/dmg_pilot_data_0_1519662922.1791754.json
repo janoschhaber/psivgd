@@ -1,1 +1,1232 @@
-{"game_id": 0, "players": ["mturk_agent_1", "mturk_agent_2"], "agent_labels": ["A", "B"], "agent_ids": ["A3F39CV28RYV34", "A5B78NV0LGCVQ"], "rounds": [{"round_nr": 0, "score": {"mturk_agent_1": 6, "mturk_agent_2": 6}, "images": {"A": ["person_fridge_pilot/COCO_train2014_000000305451.jpg", "person_fridge_pilot/COCO_train2014_000000062763.jpg", "person_fridge_pilot/COCO_train2014_000000541838.jpg", "person_fridge_pilot/COCO_train2014_000000328270.jpg", "person_fridge_pilot/COCO_train2014_000000458199.jpg", "person_fridge_pilot/COCO_train2014_000000387913.jpg"], "B": ["person_fridge_pilot/COCO_train2014_000000469779.jpg", "person_fridge_pilot/COCO_train2014_000000095100.jpg", "person_fridge_pilot/COCO_train2014_000000305451.jpg", "person_fridge_pilot/COCO_train2014_000000328270.jpg", "person_fridge_pilot/COCO_train2014_000000062763.jpg", "person_fridge_pilot/COCO_train2014_000000387913.jpg"]}, "messages": [{"timestamp": 1519662961.1712546, "turn": 1, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "I have an image of a women with a pink shirt holding a pink pie"}, {"timestamp": 1519662972.0013628, "turn": 1, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000387913.jpg"}, {"timestamp": 1519663007.1002536, "turn": 1, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "I do too, I also have a guy who is cleaning his refridgerator with a vacuum cleaner"}, {"timestamp": 1519663011.9137723, "turn": 2, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000387913.jpg"}, {"timestamp": 1519663054.2309537, "turn": 2, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "I don't have that one, I have a picture of a woman in a blue shirt doing something with dough"}, {"timestamp": 1519663064.6608815, "turn": 2, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000469779.jpg"}, {"timestamp": 1519663073.2863226, "turn": 2, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000328270.jpg"}, {"timestamp": 1519663100.4636345, "turn": 2, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "I do too, I also have a woman in a purple sweater looking at a pizza"}, {"timestamp": 1519663114.302848, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000328270.jpg"}, {"timestamp": 1519663138.572047, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "I don't have that one, I do have a picture with a child and her father sprinkling shit on a pizza"}, {"timestamp": 1519663148.90137, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000305451.jpg"}, {"timestamp": 1519663152.4115648, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000095100.jpg"}, {"timestamp": 1519663197.2340264, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "I do too, my last picture is of two girls looking at things they hanged up on a refridgerator"}, {"timestamp": 1519663263.6080203, "turn": 4, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "I have that one as well. I also have a picture of a guy in a black t shirt standing next to a refrigerator"}, {"timestamp": 1519663272.7351959, "turn": 4, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000062763.jpg"}, {"timestamp": 1519663303.6239443, "turn": 4, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<feedback>"}, {"timestamp": 1519663303.6253183, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000062763.jpg"}, {"timestamp": 1519663303.6255028, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000541838.jpg"}, {"timestamp": 1519663303.6256583, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000458199.jpg"}, {"timestamp": 1519663303.6258075, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000305451.jpg"}, {"timestamp": 1519663303.6259544, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000305451.jpg"}, {"timestamp": 1519663303.6260998, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000305451.jpg"}, {"timestamp": 1519663303.626239, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<feedback>"}, {"timestamp": 1519663308.5415032, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "done"}, {"timestamp": 1519663312.6542385, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "done"}, {"timestamp": 1519663317.86984, "turn": 6, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<next_round>"}, {"timestamp": 1519663317.8700798, "turn": 6, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<next_round>"}]}, {"round_nr": 1, "score": {"mturk_agent_1": 6, "mturk_agent_2": 6}, "images": {"A": ["person_fridge_pilot/COCO_train2014_000000365525.jpg", "person_fridge_pilot/COCO_train2014_000000328270.jpg", "person_fridge_pilot/COCO_train2014_000000507871.jpg", "person_fridge_pilot/COCO_train2014_000000305451.jpg", "person_fridge_pilot/COCO_train2014_000000469779.jpg", "person_fridge_pilot/COCO_train2014_000000458199.jpg"], "B": ["person_fridge_pilot/COCO_train2014_000000458199.jpg", "person_fridge_pilot/COCO_train2014_000000328270.jpg", "person_fridge_pilot/COCO_train2014_000000469779.jpg", "person_fridge_pilot/COCO_train2014_000000507871.jpg", "person_fridge_pilot/COCO_train2014_000000387913.jpg", "person_fridge_pilot/COCO_train2014_000000519209.jpg"]}, "messages": [{"timestamp": 1519663343.6489801, "turn": 1, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "I have the same picture of a girl with a blue shirt doing shit with dough"}, {"timestamp": 1519663352.9764915, "turn": 1, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000328270.jpg"}, {"timestamp": 1519663381.2476315, "turn": 1, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "I do too, I also have the same pink girl as previous"}, {"timestamp": 1519663394.9869611, "turn": 2, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "I dont, do have the child and the farther"}, {"timestamp": 1519663402.9102466, "turn": 2, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000387913.jpg"}, {"timestamp": 1519663423.6691973, "turn": 2, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "I dont, I do have the vacuum cleaner picture"}, {"timestamp": 1519663423.6701627, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000328270.jpg"}, {"timestamp": 1519663426.3787336, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000305451.jpg"}, {"timestamp": 1519663427.9836943, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000469779.jpg"}, {"timestamp": 1519663447.2374704, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "#metoo A also have a picture of a guy with a brown shirt and blue jeans "}, {"timestamp": 1519663459.7712276, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000469779.jpg"}, {"timestamp": 1519663461.27577, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000458199.jpg"}, {"timestamp": 1519663476.5180717, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "I do too, I also have a picture of a cook with a mustache and a high hat"}, {"timestamp": 1519663496.1696043, "turn": 4, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "I dont, do have a BW picture of a girl in a shite shirt"}, {"timestamp": 1519663500.583022, "turn": 4, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000519209.jpg"}, {"timestamp": 1519663506.3999453, "turn": 4, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000507871.jpg"}, {"timestamp": 1519663521.1417196, "turn": 4, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "I do too, I am done"}, {"timestamp": 1519663523.3492975, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000458199.jpg"}, {"timestamp": 1519663525.9563751, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000507871.jpg"}, {"timestamp": 1519663527.4610028, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000365525.jpg"}, {"timestamp": 1519663529.6670077, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<feedback>"}, {"timestamp": 1519663531.575856, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<next_round>"}, {"timestamp": 1519663531.576212, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<feedback>"}, {"timestamp": 1519663532.7822628, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<next_round>"}]}, {"round_nr": 2, "score": {"mturk_agent_1": 6, "mturk_agent_2": 6}, "images": {"A": ["person_fridge_pilot/COCO_train2014_000000519209.jpg", "person_fridge_pilot/COCO_train2014_000000469779.jpg", "person_fridge_pilot/COCO_train2014_000000365525.jpg", "person_fridge_pilot/COCO_train2014_000000541838.jpg", "person_fridge_pilot/COCO_train2014_000000062763.jpg", "person_fridge_pilot/COCO_train2014_000000448761.jpg"], "B": ["person_fridge_pilot/COCO_train2014_000000387913.jpg", "person_fridge_pilot/COCO_train2014_000000095100.jpg", "person_fridge_pilot/COCO_train2014_000000507871.jpg", "person_fridge_pilot/COCO_train2014_000000365525.jpg", "person_fridge_pilot/COCO_train2014_000000062763.jpg", "person_fridge_pilot/COCO_train2014_000000458199.jpg"]}, "messages": [{"timestamp": 1519663541.5131657, "turn": 1, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "Now i have the cook + mustache"}, {"timestamp": 1519663541.5143104, "turn": 1, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "I have the shite girl"}, {"timestamp": 1519663546.5306213, "turn": 2, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "I dont"}, {"timestamp": 1519663557.2590308, "turn": 2, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "I do not, I have the brown shirt blue jeans"}, {"timestamp": 1519663561.1702445, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000519209.jpg"}, {"timestamp": 1519663564.5806003, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "I dont "}, {"timestamp": 1519663564.581484, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000507871.jpg"}, {"timestamp": 1519663576.3149416, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000507871.jpg"}, {"timestamp": 1519663577.3181534, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000458199.jpg"}, {"timestamp": 1519663588.1499796, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "purple shirt pizza girl"}, {"timestamp": 1519663599.5841355, "turn": 4, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "No, do have vaccum"}, {"timestamp": 1519663610.0162063, "turn": 4, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "I dont ,have the pink girl"}, {"timestamp": 1519663611.8220923, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000469779.jpg"}, {"timestamp": 1519663612.0230174, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000469779.jpg"}, {"timestamp": 1519663625.861229, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "I dont, two first looking ad frigde"}, {"timestamp": 1519663625.8623593, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000095100.jpg"}, {"timestamp": 1519663632.2794046, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000062763.jpg"}, {"timestamp": 1519663635.9889786, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000387913.jpg"}, {"timestamp": 1519663671.477563, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "Have a guy with hipster glasses with a refridgerator in the background"}, {"timestamp": 1519663688.7254071, "turn": 6, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "ME too, also guy black t shirt next to fridge"}, {"timestamp": 1519663709.4856312, "turn": 6, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "oh btw I have two first looking at fridge"}, {"timestamp": 1519663709.4867396, "turn": 7, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000365525.jpg"}, {"timestamp": 1519663713.8997524, "turn": 7, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000062763.jpg"}, {"timestamp": 1519663725.9336748, "turn": 7, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000541838.jpg"}, {"timestamp": 1519663726.8365095, "turn": 7, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000448761.jpg"}, {"timestamp": 1519663727.7392898, "turn": 7, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<feedback>"}, {"timestamp": 1519663727.740437, "turn": 7, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000365525.jpg"}, {"timestamp": 1519663727.7406263, "turn": 7, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<feedback>"}, {"timestamp": 1519663752.9127996, "turn": 7, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<next_round>"}, {"timestamp": 1519663752.9131336, "turn": 8, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<next_round>"}]}, {"round_nr": 3, "score": {"mturk_agent_1": 6, "mturk_agent_2": 6}, "images": {"A": ["person_fridge_pilot/COCO_train2014_000000305451.jpg", "person_fridge_pilot/COCO_train2014_000000387913.jpg", "person_fridge_pilot/COCO_train2014_000000095100.jpg", "person_fridge_pilot/COCO_train2014_000000519209.jpg", "person_fridge_pilot/COCO_train2014_000000541838.jpg", "person_fridge_pilot/COCO_train2014_000000448761.jpg"], "B": ["person_fridge_pilot/COCO_train2014_000000062763.jpg", "person_fridge_pilot/COCO_train2014_000000305451.jpg", "person_fridge_pilot/COCO_train2014_000000095100.jpg", "person_fridge_pilot/COCO_train2014_000000448761.jpg", "person_fridge_pilot/COCO_train2014_000000541838.jpg", "person_fridge_pilot/COCO_train2014_000000365525.jpg"]}, "messages": [{"timestamp": 1519663754.8290555, "turn": 1, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "sdgsdgfsdg"}, {"timestamp": 1519663761.9486628, "turn": 1, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "purple shirt pizza"}, {"timestamp": 1519663769.2691627, "turn": 2, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "Yes, pink girl with pie"}, {"timestamp": 1519663771.8774977, "turn": 2, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000095100.jpg"}, {"timestamp": 1519663778.295454, "turn": 2, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "nope, hipster dude"}, {"timestamp": 1519663778.2966123, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000095100.jpg"}, {"timestamp": 1519663781.205258, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000387913.jpg"}, {"timestamp": 1519663787.0223653, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "No, black t shirt"}, {"timestamp": 1519663798.552931, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "yes, two girls one fridge"}, {"timestamp": 1519663802.063291, "turn": 4, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000541838.jpg"}, {"timestamp": 1519663805.974343, "turn": 4, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "no, mustache"}, {"timestamp": 1519663805.975447, "turn": 4, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000541838.jpg"}, {"timestamp": 1519663815.2029274, "turn": 4, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "no sprinkling"}, {"timestamp": 1519663817.9117632, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000519209.jpg"}, {"timestamp": 1519663828.342299, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "yes, guy looking in bottom fridge"}, {"timestamp": 1519663828.3434074, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000062763.jpg"}, {"timestamp": 1519663828.3435621, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000365525.jpg"}, {"timestamp": 1519663835.8656437, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000305451.jpg"}, {"timestamp": 1519663836.7687476, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "yes"}, {"timestamp": 1519663836.7698634, "turn": 6, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000305451.jpg"}, {"timestamp": 1519663838.8763452, "turn": 6, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000448761.jpg"}, {"timestamp": 1519663839.6793792, "turn": 6, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<feedback>"}, {"timestamp": 1519663839.680529, "turn": 6, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000448761.jpg"}, {"timestamp": 1519663839.6806872, "turn": 6, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<feedback>"}, {"timestamp": 1519663845.4995744, "turn": 6, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<next_round>"}, {"timestamp": 1519663845.499875, "turn": 7, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<next_round>"}]}, {"round_nr": 4, "score": {"mturk_agent_1": 6, "mturk_agent_2": 6}, "images": {"A": ["person_fridge_pilot/COCO_train2014_000000458199.jpg", "person_fridge_pilot/COCO_train2014_000000507871.jpg", "person_fridge_pilot/COCO_train2014_000000448761.jpg", "person_fridge_pilot/COCO_train2014_000000095100.jpg", "person_fridge_pilot/COCO_train2014_000000541838.jpg", "person_fridge_pilot/COCO_train2014_000000519209.jpg"], "B": ["person_fridge_pilot/COCO_train2014_000000328270.jpg", "person_fridge_pilot/COCO_train2014_000000469779.jpg", "person_fridge_pilot/COCO_train2014_000000519209.jpg", "person_fridge_pilot/COCO_train2014_000000365525.jpg", "person_fridge_pilot/COCO_train2014_000000448761.jpg", "person_fridge_pilot/COCO_train2014_000000507871.jpg"]}, "messages": [{"timestamp": 1519663850.6262186, "turn": 1, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "shit shirt"}, {"timestamp": 1519663857.0427952, "turn": 1, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "yes, bottom fridge"}, {"timestamp": 1519663859.2503047, "turn": 2, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000507871.jpg"}, {"timestamp": 1519663864.0647547, "turn": 2, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "no, black t shirt"}, {"timestamp": 1519663864.0658562, "turn": 2, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000507871.jpg"}, {"timestamp": 1519663866.974598, "turn": 2, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000448761.jpg"}, {"timestamp": 1519663872.5914505, "turn": 2, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "no, vacuum"}, {"timestamp": 1519663874.1968498, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000541838.jpg"}, {"timestamp": 1519663878.6099908, "turn": 3, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "No, mustache"}, {"timestamp": 1519663887.134303, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000469779.jpg"}, {"timestamp": 1519663889.5415277, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000519209.jpg"}, {"timestamp": 1519663892.551491, "turn": 3, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "yes, dough"}, {"timestamp": 1519663895.1603067, "turn": 4, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000519209.jpg"}, {"timestamp": 1519663895.8625445, "turn": 4, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000519209.jpg"}, {"timestamp": 1519663899.071901, "turn": 4, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "no, purple shirt"}, {"timestamp": 1519663902.4828565, "turn": 4, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000328270.jpg"}, {"timestamp": 1519663910.1050737, "turn": 4, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "no, hipster"}, {"timestamp": 1519663913.0145702, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000095100.jpg"}, {"timestamp": 1519663926.6536543, "turn": 5, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "No, I do actually have the bottom frige"}, {"timestamp": 1519663932.572223, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000448761.jpg"}, {"timestamp": 1519663936.1830823, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000365525.jpg"}, {"timestamp": 1519663940.1949983, "turn": 5, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "oke done"}, {"timestamp": 1519663940.1961305, "turn": 6, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000448761.jpg"}, {"timestamp": 1519663944.3081677, "turn": 6, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000458199.jpg"}, {"timestamp": 1519663945.2110045, "turn": 6, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<feedback>"}, {"timestamp": 1519663978.5087323, "turn": 6, "speaker:": "A", "agent_label": "mturk_agent_1", "agent_id": "A3F39CV28RYV34", "message": "<next_round> col:5&partner_u:5&self_u:5&text:nice"}, {"timestamp": 1519663978.5088532, "turn": 6, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<feedback>"}, {"timestamp": 1519663978.5096538, "turn": 6, "speaker:": "B", "agent_label": "mturk_agent_2", "agent_id": "A5B78NV0LGCVQ", "message": "<next_round> col:5&partner_u:5&self_u:5&text: "}]}]}
+{
+  "agent_ids": [
+    "A3F39CV28RYV34",
+    "A5B78NV0LGCVQ"
+  ],
+  "agent_labels": [
+    "A",
+    "B"
+  ],
+  "game_id": 0,
+  "players": [
+    "mturk_agent_1",
+    "mturk_agent_2"
+  ],
+  "rounds": [
+    {
+      "images": {
+        "A": [
+          "person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "person_fridge_pilot/COCO_train2014_000000062763.jpg",
+          "person_fridge_pilot/COCO_train2014_000000541838.jpg",
+          "person_fridge_pilot/COCO_train2014_000000328270.jpg",
+          "person_fridge_pilot/COCO_train2014_000000458199.jpg",
+          "person_fridge_pilot/COCO_train2014_000000387913.jpg"
+        ],
+        "B": [
+          "person_fridge_pilot/COCO_train2014_000000469779.jpg",
+          "person_fridge_pilot/COCO_train2014_000000095100.jpg",
+          "person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "person_fridge_pilot/COCO_train2014_000000328270.jpg",
+          "person_fridge_pilot/COCO_train2014_000000062763.jpg",
+          "person_fridge_pilot/COCO_train2014_000000387913.jpg"
+        ]
+      },
+      "messages": [
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "I have an image of a women with a pink shirt holding a pink pie",
+          "speaker": "A",
+          "timestamp": 1519662961.1712546,
+          "turn": 1
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000387913.jpg",
+          "speaker": "B",
+          "timestamp": 1519662972.0013628,
+          "turn": 1
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "I do too, I also have a guy who is cleaning his refridgerator with a vacuum cleaner",
+          "speaker": "B",
+          "timestamp": 1519663007.1002536,
+          "turn": 1
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000387913.jpg",
+          "speaker": "A",
+          "timestamp": 1519663011.9137723,
+          "turn": 2
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "I don't have that one, I have a picture of a woman in a blue shirt doing something with dough",
+          "speaker": "A",
+          "timestamp": 1519663054.2309537,
+          "turn": 2
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000469779.jpg",
+          "speaker": "B",
+          "timestamp": 1519663064.6608815,
+          "turn": 2
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000328270.jpg",
+          "speaker": "B",
+          "timestamp": 1519663073.2863226,
+          "turn": 2
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "I do too, I also have a woman in a purple sweater looking at a pizza",
+          "speaker": "B",
+          "timestamp": 1519663100.4636345,
+          "turn": 2
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000328270.jpg",
+          "speaker": "A",
+          "timestamp": 1519663114.302848,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "I don't have that one, I do have a picture with a child and her father sprinkling shit on a pizza",
+          "speaker": "A",
+          "timestamp": 1519663138.572047,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "speaker": "B",
+          "timestamp": 1519663148.90137,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000095100.jpg",
+          "speaker": "B",
+          "timestamp": 1519663152.4115648,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "I do too, my last picture is of two girls looking at things they hanged up on a refridgerator",
+          "speaker": "B",
+          "timestamp": 1519663197.2340264,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "I have that one as well. I also have a picture of a guy in a black t shirt standing next to a refrigerator",
+          "speaker": "A",
+          "timestamp": 1519663263.6080203,
+          "turn": 4
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000062763.jpg",
+          "speaker": "B",
+          "timestamp": 1519663272.7351959,
+          "turn": 4
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<feedback>",
+          "speaker": "B",
+          "timestamp": 1519663303.6239443,
+          "turn": 4
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000062763.jpg",
+          "speaker": "A",
+          "timestamp": 1519663303.6253183,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000541838.jpg",
+          "speaker": "A",
+          "timestamp": 1519663303.6255028,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000458199.jpg",
+          "speaker": "A",
+          "timestamp": 1519663303.6256583,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "speaker": "A",
+          "timestamp": 1519663303.6258075,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "speaker": "A",
+          "timestamp": 1519663303.6259544,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "speaker": "A",
+          "timestamp": 1519663303.6260998,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<feedback>",
+          "speaker": "A",
+          "timestamp": 1519663303.626239,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "done",
+          "speaker": "A",
+          "timestamp": 1519663308.5415032,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "done",
+          "speaker": "B",
+          "timestamp": 1519663312.6542385,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<next_round>",
+          "speaker": "A",
+          "timestamp": 1519663317.86984,
+          "turn": 6
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<next_round>",
+          "speaker": "B",
+          "timestamp": 1519663317.8700798,
+          "turn": 6
+        }
+      ],
+      "round_nr": 0,
+      "score": {
+        "mturk_agent_1": 6,
+        "mturk_agent_2": 6
+      }
+    },
+    {
+      "images": {
+        "A": [
+          "person_fridge_pilot/COCO_train2014_000000365525.jpg",
+          "person_fridge_pilot/COCO_train2014_000000328270.jpg",
+          "person_fridge_pilot/COCO_train2014_000000507871.jpg",
+          "person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "person_fridge_pilot/COCO_train2014_000000469779.jpg",
+          "person_fridge_pilot/COCO_train2014_000000458199.jpg"
+        ],
+        "B": [
+          "person_fridge_pilot/COCO_train2014_000000458199.jpg",
+          "person_fridge_pilot/COCO_train2014_000000328270.jpg",
+          "person_fridge_pilot/COCO_train2014_000000469779.jpg",
+          "person_fridge_pilot/COCO_train2014_000000507871.jpg",
+          "person_fridge_pilot/COCO_train2014_000000387913.jpg",
+          "person_fridge_pilot/COCO_train2014_000000519209.jpg"
+        ]
+      },
+      "messages": [
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "I have the same picture of a girl with a blue shirt doing shit with dough",
+          "speaker": "A",
+          "timestamp": 1519663343.6489801,
+          "turn": 1
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000328270.jpg",
+          "speaker": "B",
+          "timestamp": 1519663352.9764915,
+          "turn": 1
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "I do too, I also have the same pink girl as previous",
+          "speaker": "B",
+          "timestamp": 1519663381.2476315,
+          "turn": 1
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "I dont, do have the child and the farther",
+          "speaker": "A",
+          "timestamp": 1519663394.9869611,
+          "turn": 2
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000387913.jpg",
+          "speaker": "B",
+          "timestamp": 1519663402.9102466,
+          "turn": 2
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "I dont, I do have the vacuum cleaner picture",
+          "speaker": "B",
+          "timestamp": 1519663423.6691973,
+          "turn": 2
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000328270.jpg",
+          "speaker": "A",
+          "timestamp": 1519663423.6701627,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "speaker": "A",
+          "timestamp": 1519663426.3787336,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000469779.jpg",
+          "speaker": "A",
+          "timestamp": 1519663427.9836943,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "#metoo A also have a picture of a guy with a brown shirt and blue jeans ",
+          "speaker": "A",
+          "timestamp": 1519663447.2374704,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000469779.jpg",
+          "speaker": "B",
+          "timestamp": 1519663459.7712276,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000458199.jpg",
+          "speaker": "B",
+          "timestamp": 1519663461.27577,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "I do too, I also have a picture of a cook with a mustache and a high hat",
+          "speaker": "B",
+          "timestamp": 1519663476.5180717,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "I dont, do have a BW picture of a girl in a shite shirt",
+          "speaker": "A",
+          "timestamp": 1519663496.1696043,
+          "turn": 4
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000519209.jpg",
+          "speaker": "B",
+          "timestamp": 1519663500.583022,
+          "turn": 4
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000507871.jpg",
+          "speaker": "B",
+          "timestamp": 1519663506.3999453,
+          "turn": 4
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "I do too, I am done",
+          "speaker": "B",
+          "timestamp": 1519663521.1417196,
+          "turn": 4
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000458199.jpg",
+          "speaker": "A",
+          "timestamp": 1519663523.3492975,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000507871.jpg",
+          "speaker": "A",
+          "timestamp": 1519663525.9563751,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000365525.jpg",
+          "speaker": "A",
+          "timestamp": 1519663527.4610028,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<feedback>",
+          "speaker": "A",
+          "timestamp": 1519663529.6670077,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<next_round>",
+          "speaker": "A",
+          "timestamp": 1519663531.575856,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<feedback>",
+          "speaker": "B",
+          "timestamp": 1519663531.576212,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<next_round>",
+          "speaker": "B",
+          "timestamp": 1519663532.7822628,
+          "turn": 5
+        }
+      ],
+      "round_nr": 1,
+      "score": {
+        "mturk_agent_1": 6,
+        "mturk_agent_2": 6
+      }
+    },
+    {
+      "images": {
+        "A": [
+          "person_fridge_pilot/COCO_train2014_000000519209.jpg",
+          "person_fridge_pilot/COCO_train2014_000000469779.jpg",
+          "person_fridge_pilot/COCO_train2014_000000365525.jpg",
+          "person_fridge_pilot/COCO_train2014_000000541838.jpg",
+          "person_fridge_pilot/COCO_train2014_000000062763.jpg",
+          "person_fridge_pilot/COCO_train2014_000000448761.jpg"
+        ],
+        "B": [
+          "person_fridge_pilot/COCO_train2014_000000387913.jpg",
+          "person_fridge_pilot/COCO_train2014_000000095100.jpg",
+          "person_fridge_pilot/COCO_train2014_000000507871.jpg",
+          "person_fridge_pilot/COCO_train2014_000000365525.jpg",
+          "person_fridge_pilot/COCO_train2014_000000062763.jpg",
+          "person_fridge_pilot/COCO_train2014_000000458199.jpg"
+        ]
+      },
+      "messages": [
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "Now i have the cook + mustache",
+          "speaker": "A",
+          "timestamp": 1519663541.5131657,
+          "turn": 1
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "I have the shite girl",
+          "speaker": "B",
+          "timestamp": 1519663541.5143104,
+          "turn": 1
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "I dont",
+          "speaker": "A",
+          "timestamp": 1519663546.5306213,
+          "turn": 2
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "I do not, I have the brown shirt blue jeans",
+          "speaker": "B",
+          "timestamp": 1519663557.2590308,
+          "turn": 2
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000519209.jpg",
+          "speaker": "A",
+          "timestamp": 1519663561.1702445,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "I dont ",
+          "speaker": "A",
+          "timestamp": 1519663564.5806003,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000507871.jpg",
+          "speaker": "B",
+          "timestamp": 1519663564.581484,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000507871.jpg",
+          "speaker": "B",
+          "timestamp": 1519663576.3149416,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000458199.jpg",
+          "speaker": "B",
+          "timestamp": 1519663577.3181534,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "purple shirt pizza girl",
+          "speaker": "B",
+          "timestamp": 1519663588.1499796,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "No, do have vaccum",
+          "speaker": "A",
+          "timestamp": 1519663599.5841355,
+          "turn": 4
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "I dont ,have the pink girl",
+          "speaker": "B",
+          "timestamp": 1519663610.0162063,
+          "turn": 4
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000469779.jpg",
+          "speaker": "A",
+          "timestamp": 1519663611.8220923,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000469779.jpg",
+          "speaker": "A",
+          "timestamp": 1519663612.0230174,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "I dont, two first looking ad frigde",
+          "speaker": "A",
+          "timestamp": 1519663625.861229,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000095100.jpg",
+          "speaker": "B",
+          "timestamp": 1519663625.8623593,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000062763.jpg",
+          "speaker": "B",
+          "timestamp": 1519663632.2794046,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000387913.jpg",
+          "speaker": "B",
+          "timestamp": 1519663635.9889786,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "Have a guy with hipster glasses with a refridgerator in the background",
+          "speaker": "B",
+          "timestamp": 1519663671.477563,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "ME too, also guy black t shirt next to fridge",
+          "speaker": "A",
+          "timestamp": 1519663688.7254071,
+          "turn": 6
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "oh btw I have two first looking at fridge",
+          "speaker": "B",
+          "timestamp": 1519663709.4856312,
+          "turn": 6
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000365525.jpg",
+          "speaker": "A",
+          "timestamp": 1519663709.4867396,
+          "turn": 7
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000062763.jpg",
+          "speaker": "A",
+          "timestamp": 1519663713.8997524,
+          "turn": 7
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000541838.jpg",
+          "speaker": "A",
+          "timestamp": 1519663725.9336748,
+          "turn": 7
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000448761.jpg",
+          "speaker": "A",
+          "timestamp": 1519663726.8365095,
+          "turn": 7
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<feedback>",
+          "speaker": "A",
+          "timestamp": 1519663727.7392898,
+          "turn": 7
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000365525.jpg",
+          "speaker": "B",
+          "timestamp": 1519663727.740437,
+          "turn": 7
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<feedback>",
+          "speaker": "B",
+          "timestamp": 1519663727.7406263,
+          "turn": 7
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<next_round>",
+          "speaker": "B",
+          "timestamp": 1519663752.9127996,
+          "turn": 7
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<next_round>",
+          "speaker": "A",
+          "timestamp": 1519663752.9131336,
+          "turn": 8
+        }
+      ],
+      "round_nr": 2,
+      "score": {
+        "mturk_agent_1": 6,
+        "mturk_agent_2": 6
+      }
+    },
+    {
+      "images": {
+        "A": [
+          "person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "person_fridge_pilot/COCO_train2014_000000387913.jpg",
+          "person_fridge_pilot/COCO_train2014_000000095100.jpg",
+          "person_fridge_pilot/COCO_train2014_000000519209.jpg",
+          "person_fridge_pilot/COCO_train2014_000000541838.jpg",
+          "person_fridge_pilot/COCO_train2014_000000448761.jpg"
+        ],
+        "B": [
+          "person_fridge_pilot/COCO_train2014_000000062763.jpg",
+          "person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "person_fridge_pilot/COCO_train2014_000000095100.jpg",
+          "person_fridge_pilot/COCO_train2014_000000448761.jpg",
+          "person_fridge_pilot/COCO_train2014_000000541838.jpg",
+          "person_fridge_pilot/COCO_train2014_000000365525.jpg"
+        ]
+      },
+      "messages": [
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "sdgsdgfsdg",
+          "speaker": "A",
+          "timestamp": 1519663754.8290555,
+          "turn": 1
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "purple shirt pizza",
+          "speaker": "B",
+          "timestamp": 1519663761.9486628,
+          "turn": 1
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "Yes, pink girl with pie",
+          "speaker": "A",
+          "timestamp": 1519663769.2691627,
+          "turn": 2
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000095100.jpg",
+          "speaker": "B",
+          "timestamp": 1519663771.8774977,
+          "turn": 2
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "nope, hipster dude",
+          "speaker": "B",
+          "timestamp": 1519663778.295454,
+          "turn": 2
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000095100.jpg",
+          "speaker": "A",
+          "timestamp": 1519663778.2966123,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000387913.jpg",
+          "speaker": "A",
+          "timestamp": 1519663781.205258,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "No, black t shirt",
+          "speaker": "A",
+          "timestamp": 1519663787.0223653,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "yes, two girls one fridge",
+          "speaker": "B",
+          "timestamp": 1519663798.552931,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000541838.jpg",
+          "speaker": "A",
+          "timestamp": 1519663802.063291,
+          "turn": 4
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "no, mustache",
+          "speaker": "A",
+          "timestamp": 1519663805.974343,
+          "turn": 4
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000541838.jpg",
+          "speaker": "B",
+          "timestamp": 1519663805.975447,
+          "turn": 4
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "no sprinkling",
+          "speaker": "B",
+          "timestamp": 1519663815.2029274,
+          "turn": 4
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000519209.jpg",
+          "speaker": "A",
+          "timestamp": 1519663817.9117632,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "yes, guy looking in bottom fridge",
+          "speaker": "A",
+          "timestamp": 1519663828.342299,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000062763.jpg",
+          "speaker": "B",
+          "timestamp": 1519663828.3434074,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000365525.jpg",
+          "speaker": "B",
+          "timestamp": 1519663828.3435621,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "speaker": "B",
+          "timestamp": 1519663835.8656437,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "yes",
+          "speaker": "B",
+          "timestamp": 1519663836.7687476,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000305451.jpg",
+          "speaker": "A",
+          "timestamp": 1519663836.7698634,
+          "turn": 6
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000448761.jpg",
+          "speaker": "A",
+          "timestamp": 1519663838.8763452,
+          "turn": 6
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<feedback>",
+          "speaker": "A",
+          "timestamp": 1519663839.6793792,
+          "turn": 6
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000448761.jpg",
+          "speaker": "B",
+          "timestamp": 1519663839.680529,
+          "turn": 6
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<feedback>",
+          "speaker": "B",
+          "timestamp": 1519663839.6806872,
+          "turn": 6
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<next_round>",
+          "speaker": "B",
+          "timestamp": 1519663845.4995744,
+          "turn": 6
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<next_round>",
+          "speaker": "A",
+          "timestamp": 1519663845.499875,
+          "turn": 7
+        }
+      ],
+      "round_nr": 3,
+      "score": {
+        "mturk_agent_1": 6,
+        "mturk_agent_2": 6
+      }
+    },
+    {
+      "images": {
+        "A": [
+          "person_fridge_pilot/COCO_train2014_000000458199.jpg",
+          "person_fridge_pilot/COCO_train2014_000000507871.jpg",
+          "person_fridge_pilot/COCO_train2014_000000448761.jpg",
+          "person_fridge_pilot/COCO_train2014_000000095100.jpg",
+          "person_fridge_pilot/COCO_train2014_000000541838.jpg",
+          "person_fridge_pilot/COCO_train2014_000000519209.jpg"
+        ],
+        "B": [
+          "person_fridge_pilot/COCO_train2014_000000328270.jpg",
+          "person_fridge_pilot/COCO_train2014_000000469779.jpg",
+          "person_fridge_pilot/COCO_train2014_000000519209.jpg",
+          "person_fridge_pilot/COCO_train2014_000000365525.jpg",
+          "person_fridge_pilot/COCO_train2014_000000448761.jpg",
+          "person_fridge_pilot/COCO_train2014_000000507871.jpg"
+        ]
+      },
+      "messages": [
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "shit shirt",
+          "speaker": "A",
+          "timestamp": 1519663850.6262186,
+          "turn": 1
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "yes, bottom fridge",
+          "speaker": "B",
+          "timestamp": 1519663857.0427952,
+          "turn": 1
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000507871.jpg",
+          "speaker": "A",
+          "timestamp": 1519663859.2503047,
+          "turn": 2
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "no, black t shirt",
+          "speaker": "A",
+          "timestamp": 1519663864.0647547,
+          "turn": 2
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000507871.jpg",
+          "speaker": "B",
+          "timestamp": 1519663864.0658562,
+          "turn": 2
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000448761.jpg",
+          "speaker": "B",
+          "timestamp": 1519663866.974598,
+          "turn": 2
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "no, vacuum",
+          "speaker": "B",
+          "timestamp": 1519663872.5914505,
+          "turn": 2
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000541838.jpg",
+          "speaker": "A",
+          "timestamp": 1519663874.1968498,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "No, mustache",
+          "speaker": "A",
+          "timestamp": 1519663878.6099908,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000469779.jpg",
+          "speaker": "B",
+          "timestamp": 1519663887.134303,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000519209.jpg",
+          "speaker": "B",
+          "timestamp": 1519663889.5415277,
+          "turn": 3
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "yes, dough",
+          "speaker": "B",
+          "timestamp": 1519663892.551491,
+          "turn": 3
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000519209.jpg",
+          "speaker": "A",
+          "timestamp": 1519663895.1603067,
+          "turn": 4
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000519209.jpg",
+          "speaker": "A",
+          "timestamp": 1519663895.8625445,
+          "turn": 4
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "no, purple shirt",
+          "speaker": "A",
+          "timestamp": 1519663899.071901,
+          "turn": 4
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000328270.jpg",
+          "speaker": "B",
+          "timestamp": 1519663902.4828565,
+          "turn": 4
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "no, hipster",
+          "speaker": "B",
+          "timestamp": 1519663910.1050737,
+          "turn": 4
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000095100.jpg",
+          "speaker": "A",
+          "timestamp": 1519663913.0145702,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "No, I do actually have the bottom frige",
+          "speaker": "A",
+          "timestamp": 1519663926.6536543,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000448761.jpg",
+          "speaker": "B",
+          "timestamp": 1519663932.572223,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000365525.jpg",
+          "speaker": "B",
+          "timestamp": 1519663936.1830823,
+          "turn": 5
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "oke done",
+          "speaker": "B",
+          "timestamp": 1519663940.1949983,
+          "turn": 5
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <com> person_fridge_pilot/COCO_train2014_000000448761.jpg",
+          "speaker": "A",
+          "timestamp": 1519663940.1961305,
+          "turn": 6
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<selection> <dif> person_fridge_pilot/COCO_train2014_000000458199.jpg",
+          "speaker": "A",
+          "timestamp": 1519663944.3081677,
+          "turn": 6
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<feedback>",
+          "speaker": "A",
+          "timestamp": 1519663945.2110045,
+          "turn": 6
+        },
+        {
+          "agent_id": "A3F39CV28RYV34",
+          "agent_label": "mturk_agent_1",
+          "message": "<next_round> col:5&partner_u:5&self_u:5&text:nice",
+          "speaker": "A",
+          "timestamp": 1519663978.5087323,
+          "turn": 6
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<feedback>",
+          "speaker": "B",
+          "timestamp": 1519663978.5088532,
+          "turn": 6
+        },
+        {
+          "agent_id": "A5B78NV0LGCVQ",
+          "agent_label": "mturk_agent_2",
+          "message": "<next_round> col:5&partner_u:5&self_u:5&text: ",
+          "speaker": "B",
+          "timestamp": 1519663978.5096538,
+          "turn": 6
+        }
+      ],
+      "round_nr": 4,
+      "score": {
+        "mturk_agent_1": 6,
+        "mturk_agent_2": 6
+      }
+    }
+  ]
+}
